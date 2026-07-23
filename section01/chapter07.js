@@ -41,4 +41,4 @@ function repeat(count, callback){
 }
 
 repeat(6, (idx)=> console.log("화이팅"+idx))
-repeat(4, (idx)=> console.log("화이팅"+idx*3))
+repeat(4, (idx)=> console.log("아자아자"+idx*3))
