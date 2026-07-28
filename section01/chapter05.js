@@ -75,7 +75,7 @@ console.log(typeof compareA); //string
 //병합 연산자라고 하는데, 앞의 피연산자가 null 혹은 undefined라면 뒤 피연산자를 반환하고, 그렇지 
 //않다면 앞의 피연산자를 반환한다. 즉 null, undefined 가 아닌 값을 찾아내는 연산자 
  
-let a = NaN;  //undefined, null 가 저장되어 있음. 
+let a;  //undefined, null 가 저장되어 있음. 
 a = a ?? 10; //연산자(??)는 피연사자중에 null 이나 undefined 이 아닌값을 선택한다.   
 console.log(a);  //10 
  

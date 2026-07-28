@@ -16,6 +16,7 @@ let person = {
     console.log(this.age+"살")
   },
   extra4 : ()=>{},
+  extra6(){},
   extra3 : [1,2,3,4,5],
   "like cat" : true,
 }
