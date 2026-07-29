@@ -34,7 +34,7 @@ getData(false)
   console.log(result)
 })
 */
-console.log("클라이언트 화면입니다.")
+//console.log("클라이언트 화면입니다.")
 
 async function printData() {
   const result = await getData(true)
