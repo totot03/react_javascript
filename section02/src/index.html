@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>title</title>
+        <link rel="stylesheet" href="linkToCSS" />
+        <script>
+          function addListEvent(){
+            //1. 객체를 찾는다. (id=addList)
+            //virtual dom 기능과 같다.
+            let list = "";
+            const addList = document.getElementById("addList");
+            //2. <ul> <li>1</li> ~~~ <li>3000</li> </ul>
+            for (let index = 1; index <= 3000; index++) {
+              list += `<li>${index}</li>`            
+            }
+            //real Dom 적용시킨다.
+            addList.innerHTML = list
+          }
+          </script>
+        </head>
+    <body>
+        <button type="button" onclick="addListEvent()">리스트추가하기</button>
+        <ul id="addList"></ul>
+    </body>
+</html>
